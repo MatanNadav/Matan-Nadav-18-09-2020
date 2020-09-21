@@ -1,0 +1,25 @@
+.forecast-preview-container {
+    width: 7rem;
+    height: 10rem;
+    border: 2px solid #EF9A9A;
+}
+
+.forecast {
+    width: 100%;
+    height: 100%;
+}
+
+.forecast > h4 {
+    color: #b94b49;
+}
+
+.forecast-details {
+    width: 100%;
+    height: 70%;
+}
+
+@media (max-width: 585px) {
+    .forecast-preview-container {
+        margin: 10px;
+    }
+}

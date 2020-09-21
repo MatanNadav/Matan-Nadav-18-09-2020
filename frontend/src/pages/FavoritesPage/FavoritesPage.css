@@ -1,0 +1,9 @@
+.favorites-container {
+    width: 100%;
+    height: 100%;
+}
+
+.default-header {
+    width: 200px;
+    margin: 0 auto;
+}

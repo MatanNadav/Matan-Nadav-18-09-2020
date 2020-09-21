@@ -1,0 +1,128 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+  
+}
+
+.bg {
+  background: url('./assets/bg.jpg') center no-repeat;
+	background-size:cover;
+  background-attachment:fixed;
+  position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:-50;
+}
+
+.dark {
+  background: url('./assets/bg-dark.jpg') center no-repeat;
+}
+
+
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  color: #fff ;
+  text-decoration: none;
+  background: #b94b49;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #434343;
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.card {
+  width: 35%;
+  height: 45%;
+  margin: 2rem auto;             
+  border: 1px solid #EF9A9A;   
+  border-radius: 4px;          
+  overflow: hidden;              
+  display: flex;                
+  flex-direction: column;
+  z-index: 10;
+}
+
+.weather-card-symbol {
+  width: 60%;
+}
+
+.card-header {
+  color: #D32F2F;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #EF9A9A;
+  background-color: #FFEBEE;
+  padding: 5px 10px;
+}
+
+.card-main {
+  display: flex;            
+  flex-direction: column;    
+  justify-content: center;    
+  align-items: center;        
+  padding: 15px 0;            
+}
+
+.main-description {
+  color: #D32F2F;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 585px) {
+  .card {
+      width: 150px;
+      padding: 10px;
+  }
+}
+
+
+/* Helpers */
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}

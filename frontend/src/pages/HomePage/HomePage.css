@@ -1,0 +1,16 @@
+.home-container {
+    width: 100%;
+    height: 30rem; 
+}
+
+.forecast-container {
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+}
+
+@media (max-width: 585px) {
+    .forecast-container {
+       justify-content: center;
+    }
+}
