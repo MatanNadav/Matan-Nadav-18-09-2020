@@ -5,6 +5,8 @@ This project uses React CLI, React-Redux with Hooks.
 I wanted to build this app using the latest best practices regarding the use of Redux & Hooks and building it made me a lot better
 at React in general and Redux in particular.
 
+I didint have to build a server for this app but i wanted someday to keep working on it and make it into something bigger so, i decided to make my own server
+
 I tried keeping the dependecies to a minimum.
 
 ## Project setup
