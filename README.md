@@ -1,4 +1,4 @@
-# Weather for Work app
+# Weather app
 
 Weather app i was assign to do.
 This project uses React CLI, React-Redux with Hooks.
