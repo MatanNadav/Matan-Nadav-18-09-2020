@@ -52,7 +52,7 @@ const HomePage = () => {
 
                 <div className="forecast-container flex space-between">
                     {
-                        data.forecast.map( (day,i) => <ForecastPreview key={i} weather={day}></ForecastPreview>)
+                       (data.forecast[0]) ? data.forecast.map( (day,i) => <ForecastPreview key={i} weather={day}></ForecastPreview>) : <h3>Api not available</h3>
                     }
                 </div>
             </section>

@@ -36,7 +36,6 @@ async function getWeather(filter, currWeatherName) {
             if (idx >= 0 ) res.data.weather.isFavorite = true
             }
             saveToStorage('weather', res.data)
-            saveToStorage('impor', res.data)
             return res.data
         }
         catch (err) {

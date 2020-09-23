@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73c9ba1f.chunk.css",
+    "main.js": "/static/js/main.4ac3c353.chunk.js",
+    "main.js.map": "/static/js/main.4ac3c353.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
+    "static/js/2.614c31e3.chunk.js": "/static/js/2.614c31e3.chunk.js",
+    "static/js/2.614c31e3.chunk.js.map": "/static/js/2.614c31e3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.312acbfd3876d2fea794d4ed25920a4e.js": "/precache-manifest.312acbfd3876d2fea794d4ed25920a4e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.73c9ba1f.chunk.css.map": "/static/css/main.73c9ba1f.chunk.css.map",
+    "static/js/2.614c31e3.chunk.js.LICENSE.txt": "/static/js/2.614c31e3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bg.9a7c2da3.jpg",
+    "static/media/cloudy.svg": "/static/media/cloudy.ad789581.svg",
+    "static/media/day.svg": "/static/media/day.7f93fbdb.svg",
+    "static/media/rainy-5.svg": "/static/media/rainy-5.2bd23641.svg",
+    "static/media/weather.svg": "/static/media/weather.56c46d80.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a21426.js",
+    "static/js/2.614c31e3.chunk.js",
+    "static/css/main.73c9ba1f.chunk.css",
+    "static/js/main.4ac3c353.chunk.js"
+  ]
+}
