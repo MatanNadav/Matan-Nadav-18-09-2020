@@ -1,6 +1,6 @@
 # Weather app
 
-Weather app i was assign to do.
+Weather app i wanted to do in order to practice React + Redux with Hooks.
 This project uses React CLI, React-Redux with Hooks.
 I wanted to build this app using the latest best practices regarding the use of Redux & Hooks and building it made me a lot better
 at React in general and Redux in particular.
